@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4324184504881952450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4324184504881952448}
+  - component: {fileID: 4324184504881952449}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4324184504881952448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4324184504881952450}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.3999999, y: 1.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4324184504881952449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4324184504881952450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5277e438f8d11349a5ed56c8c9795ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroupSFX: {fileID: 8456824884723277986, guid: fe3684d6a5b18ba4aa084548b13d2853,
+    type: 2}
+  mixerGroupMusic: {fileID: -3895715786249878395, guid: fe3684d6a5b18ba4aa084548b13d2853,
+    type: 2}
+  m_soundEffects:
+  - m_name: Bomb Plant
+    m_clip: {fileID: 8300000, guid: fa2d85cfc924ff44b8a6916fff304f3f, type: 3}
+    m_volume: 0.1
+    m_pitch: 1
+    m_loop: 0
+    m_source: {fileID: 0}
+  - m_name: Bomb Explosion
+    m_clip: {fileID: 8300000, guid: a08bcd982788fb949ba156b220dc42c8, type: 3}
+    m_volume: 0.2
+    m_pitch: 1
+    m_loop: 0
+    m_source: {fileID: 0}
+  - m_name: Pickup
+    m_clip: {fileID: 8300000, guid: 8eaf231c23fbd3641a40a04684edf1ae, type: 3}
+    m_volume: 0.1
+    m_pitch: 1
+    m_loop: 0
+    m_source: {fileID: 0}
+  - m_name: Invurnable
+    m_clip: {fileID: 8300000, guid: 3b2f29fe368f4244d9336a924a91e64e, type: 3}
+    m_volume: 0.05
+    m_pitch: 1
+    m_loop: 0
+    m_source: {fileID: 0}
+  - m_name: Unlock
+    m_clip: {fileID: 8300000, guid: f33c8defd1320474c8521c0b9c3079fa, type: 3}
+    m_volume: 0.1
+    m_pitch: 1
+    m_loop: 0
+    m_source: {fileID: 0}
+  - m_name: BatDeath
+    m_clip: {fileID: 8300000, guid: d4a22c276510bdc4ab33aa28660cfe07, type: 3}
+    m_volume: 0.1
+    m_pitch: 1
+    m_loop: 0
+    m_source: {fileID: 0}
+  m_musicTracks:
+  - m_name: Background 1
+    m_clip: {fileID: 8300000, guid: d2a264064dd647643a5695bf478b7f9d, type: 3}
+    m_volume: 0.05
+    m_pitch: 1
+    m_loop: 1
+    m_source: {fileID: 0}
+  - m_name: Background 2
+    m_clip: {fileID: 8300000, guid: c9113a9fbbc2ea54fbfe568e45fc40cb, type: 3}
+    m_volume: 0.05
+    m_pitch: 1
+    m_loop: 1
+    m_source: {fileID: 0}
+  - m_name: Background 3
+    m_clip: {fileID: 8300000, guid: d34c77a404daa414d84259e42e217797, type: 3}
+    m_volume: 0.05
+    m_pitch: 1
+    m_loop: 1
+    m_source: {fileID: 0}
+  - m_name: Main Menu
+    m_clip: {fileID: 8300000, guid: 3c1cf3fa7e1405a49baa8c0e01d9819d, type: 3}
+    m_volume: 0.05
+    m_pitch: 1
+    m_loop: 1
+    m_source: {fileID: 0}
